@@ -79,7 +79,7 @@ public class StockMarket {
 		System.out.println("         P/E ratio for a price of 110: " + broker.getPriceDividendRatio("GIN", 110));
 		System.out.println("          Volume weighted stock price: " + broker.getVolumeWeightedStockPrice("GIN", now));
 	
-		// Print out JOE figures
+		// Print out JOE figures 
 		broker.getStock("JOE").printDetails();
 		System.out.println("    Dividend yield for a price of 240: " + broker.getDividendYield("JOE", 240));
 		System.out.println("    Dividend yield for a price of 250: " + broker.getDividendYield("JOE", 250));

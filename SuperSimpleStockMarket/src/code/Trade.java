@@ -4,7 +4,7 @@ public class Trade {
 
 	private long time;
 	private int quantity;
-	private String type; // buy or sell
+	private String type; // buy or sell 
 	private double price;
 	
 	public Trade(String tt, int q,  double p, long t) {
